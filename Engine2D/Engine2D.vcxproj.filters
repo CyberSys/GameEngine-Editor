@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Engine2D">
+      <UniqueIdentifier>{1bb17bcc-6799-4dea-a041-ab80e0292f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\graphics">
+      <UniqueIdentifier>{b0b6e9c1-a927-4ff3-822f-3eeeb9dacd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\graphics\inc">
+      <UniqueIdentifier>{2d0af234-c78e-414a-ad6e-3fdde5cd5bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\graphics\src">
+      <UniqueIdentifier>{0b07341e-9b46-4a4b-a14e-69f82f6a4a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\renderer">
+      <UniqueIdentifier>{7c566797-d9ee-4188-8d69-1f7e0e74053f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\renderer\inc">
+      <UniqueIdentifier>{d9675cf3-a6cd-40ef-8bf1-02bf49f14b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine2D\renderer\src">
+      <UniqueIdentifier>{cf465157-5805-4835-b167-b1e581a68d3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\graphics\GraphicsGL.cpp">
+      <Filter>Engine2D\graphics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Transform.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Color.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Rectangle2D.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Sprite2D.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Shader.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\SpriteMaterial.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Mesh.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Texture2D.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\SpriteFrame.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\SpriteAnimation.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteEditorGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Camera2D.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\OutlineRect.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine2D\renderer\Renderer.cpp">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SpriteEditorGL.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SceneEditorGL.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine2D.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine2D\graphics\GraphicsGL.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\MemoryElement.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\MemoryLayout.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\TextureFilter.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\TextureAddressMode.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\ComparisonFunction.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\RenderType.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\Primitive.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\graphics\GLcapability.h">
+      <Filter>Engine2D\graphics\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Mesh.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Color.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Transform.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\MeshFilter.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Rectangle2D.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Sprite2D.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Shader.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\SpriteMaterial.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Texture2D.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\SpriteFrame.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\SpriteAnimation.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Camera2D.h">
+      <Filter>Engine2D\renderer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\Renderer.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine2D\renderer\OutlineRect.h">
+      <Filter>Engine2D\renderer\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
